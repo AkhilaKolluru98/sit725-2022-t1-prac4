@@ -1,4 +1,4 @@
-# sit725-2022-t1-prac2
+# sit725-2022-t1-prac3
 
 This is the basic node application used to serve basic web server.
 Added a web service that helps us to add two numbers on the server.
