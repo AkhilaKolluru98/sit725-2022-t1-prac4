@@ -35,14 +35,71 @@
       </div>
     </nav>
   </div>
+  <main class="main-body">
     <div class="container">
-        <img class="materialboxed materialboxed-image" src="images/teacher+training.jpg"/>
+      <div class="row">
+        <div class="col s12 center-align">
+          <img class="materialboxed materialboxed-image" src="images/teacher+training.jpg">
+        </div>
+        <div class="col s12 center-align">
+          <a class="waves-effect waves-light btn click-me-button modal-trigger" id="clickMeButton" data-target="modal1"><i class="material-icons left">auto_fix_high</i>Click Me</a>
+        </div>
+      </div>
     </div>
-
- 
-
-    
+    <div class="row" id="card-section">
+      <div class="col s4 center-align">
+        <div class="card small">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="images/HTML.jpg">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">HTML course<i class="material-icons right">more_vert</i></span>
+            <p><a href="https://www.linkedin.com/learning/html-essential-training-4/what-is-html?resume=false&u=2104084">HTML course</a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">HTML course<i class="material-icons right">close</i></span>
+            <p class="card-text">Happy learning!!</p>
+          </div>
+        </div>
+      </div>
+    </div>
   
+    <!-- Modal Structure continues on next slide-->
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal modal-fixed-footer">
+      <div class="row modal-content">
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s6">
+              <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+              <label for="first_name">First Name</label>
+            </div>
+            <div class="input-field col s6">
+              <input id="last_name" type="text" class="validate">
+              <label for="last_name">Last Name</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="password" type="password" class="validate">
+              <label for="password">Password</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="email" type="email" class="validate">
+              <label for="email">Email</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12 center-align">
+              <a class="waves-effect waves-light btn" id="formSubmit">submit</a>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </main>
 
 <!-- Compiled and minified JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>

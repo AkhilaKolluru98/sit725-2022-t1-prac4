@@ -2,11 +2,14 @@
   background-color: #000000;
 }
 
-.container {
-  width: 3500px;
-  height: 300px;
+.main-body {
+  height: calc(100vh - 64px);
 }
 .materialboxed-image {
-  width: 100%;
-  height: 100%;
+  margin: 0 auto;
+  height: 400px;
+}
+.click-me-button {
+  background-color: #ee6e73;
+  margin-top: 50px;
 }
