@@ -1,8 +1,9 @@
-# sit725-2022-t1-prac3
+# sit725-2022-t1-prac4
 
 This is the basic node application used to serve basic web server.
 Added basic web page using materialize.
 Used Modals for Form
+Added MongoDB connection
 
 ## Pre-requisite
 
